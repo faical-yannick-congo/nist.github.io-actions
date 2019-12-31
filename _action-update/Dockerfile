@@ -5,8 +5,8 @@ LABEL "com.github.actions.description"="Run the complete MASTER data update."
 LABEL "com.github.actions.icon"="refresh-cw"
 LABEL "com.github.actions.color"="blue"
 
-LABEL "repository"="https://github.com/lc-bot/llnl.github.io-actions"
-LABEL "homepage"="https://software.llnl.gov"
+LABEL "repository"="https://github.com/faical-yannick-congo/nist.github.io-actions"
+LABEL "homepage"="https://software.nist.gov"
 
 RUN apt-get update && apt-get install \
     -y --no-install-recommends curl git python3 python3-virtualenv
